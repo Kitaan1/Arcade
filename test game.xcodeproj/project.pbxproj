@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270118C82853230E002F9264 /* Sudoku_buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270118C72853230E002F9264 /* Sudoku_buffer.swift */; };
+		270118CA285329A1002F9264 /* Sudoku_board_storage.txt in Resources */ = {isa = PBXBuildFile; fileRef = 270118C9285329A1002F9264 /* Sudoku_board_storage.txt */; };
+		270118CE285392C6002F9264 /* Boardss.txt in Resources */ = {isa = PBXBuildFile; fileRef = 270118CD285392C6002F9264 /* Boardss.txt */; };
+		27191473283943D7004F3B1C /* Word_Length_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27191472283943D7004F3B1C /* Word_Length_3.swift */; };
+		27191475283A6759004F3B1C /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27191474283A6758004F3B1C /* Alphabet.swift */; };
+		272EA6A528055C980038B394 /* Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EA6A428055C980038B394 /* Sudoku.swift */; };
+		2731D38528223C9D002986C1 /* tic_tac_toe_player_choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731D38428223C9D002986C1 /* tic_tac_toe_player_choice.swift */; };
+		2737FD942860129B00BF7EC3 /* Serpents_stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737FD932860129B00BF7EC3 /* Serpents_stairs.swift */; };
+		2742E4CB28747841002DE87F /* third_ladder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2742E4CA28747841002DE87F /* third_ladder.png */; };
+		2742E4CD28747A4E002DE87F /* forth_ladder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2742E4CC28747A4D002DE87F /* forth_ladder.png */; };
+		2746BA652835EE88002927BD /* Word_guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746BA642835EE88002927BD /* Word_guess.swift */; };
+		274DDB52285717E900F847DE /* bigbrain_choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DDB51285717E900F847DE /* bigbrain_choice.swift */; };
+		274DDB56285777C700F847DE /* BigBrain_code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DDB55285777C700F847DE /* BigBrain_code.swift */; };
+		274DDB58285A0D4F00F847DE /* 5_letter_words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DDB57285A0D4F00F847DE /* 5_letter_words.swift */; };
+		274DDB5A285A0F1600F847DE /* WordGuess_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DDB59285A0F1600F847DE /* WordGuess_5.swift */; };
+		276144BE2869B11700012283 /* WordGuess_choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276144BD2869B11700012283 /* WordGuess_choice.swift */; };
+		276144C2286AE9FF00012283 /* snake 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144C1286AE9FE00012283 /* snake 2.png */; };
+		276144C4286AEA8C00012283 /* First_Snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144C3286AEA8C00012283 /* First_Snake.png */; };
+		276144CA286AF0BA00012283 /* First_Ladder.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144C9286AF0BA00012283 /* First_Ladder.png */; };
+		276144CC286B261F00012283 /* Second_Snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144CB286B261F00012283 /* Second_Snake.png */; };
+		276144CE286B2E6F00012283 /* Third_snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144CD286B2E6F00012283 /* Third_snake.png */; };
+		276144D0286C7E1800012283 /* forth_snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144CF286C7E1800012283 /* forth_snake.png */; };
+		276144D2286C812700012283 /* fifth_snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144D1286C812700012283 /* fifth_snake.png */; };
+		276144D4286DE06800012283 /* First_Stairs.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144D3286DE06700012283 /* First_Stairs.png */; };
+		276144D6286DE15B00012283 /* First_ladder.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144D5286DE15B00012283 /* First_ladder.png */; };
+		276144D8286DE52100012283 /* Second_ladder.png in Resources */ = {isa = PBXBuildFile; fileRef = 276144D7286DE52100012283 /* Second_ladder.png */; };
+		27868F2427FDD873006DE092 /* tictactoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27868F2327FDD873006DE092 /* tictactoe.swift */; };
+		279318AC284D814F0072BCFD /* Sudoku_choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279318AB284D814F0072BCFD /* Sudoku_choice.swift */; };
+		27A2AE2A282C8A2700E8DFA3 /* big_brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A2AE29282C8A2700E8DFA3 /* big_brain.swift */; };
+		27A2E5A728A0098E00DC33CE /* sudoku_howtoplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A2E5A628A0098E00DC33CE /* sudoku_howtoplay.swift */; };
+		27A2E5A928A2B1F300DC33CE /* sudoku_example1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A2E5A828A2B1F300DC33CE /* sudoku_example1.png */; };
+		27C3B41127E737950008EBB1 /* KGHAPPYShadows.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C3B40D27E737950008EBB1 /* KGHAPPYShadows.ttf */; };
+		27C3B41227E737950008EBB1 /* KGFonts-TOU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27C3B40E27E737950008EBB1 /* KGFonts-TOU.txt */; };
+		27C3B41327E737950008EBB1 /* KGHAPPYSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C3B40F27E737950008EBB1 /* KGHAPPYSolid.ttf */; };
+		27C3B41427E737950008EBB1 /* KGHAPPY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C3B41027E737950008EBB1 /* KGHAPPY.ttf */; };
+		27D1146F28255A2400195ED1 /* tictactoe_bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1146E28255A2400195ED1 /* tictactoe_bot.swift */; };
+		27F01A6D27F2986A000FF9FA /* game_choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F01A6C27F2986A000FF9FA /* game_choice.swift */; };
+		27F7DB012845023400485AB3 /* game_choice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F7DB002845023400485AB3 /* game_choice2.swift */; };
+		27F9CE1C28426A1E0048FA09 /* 1024Logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CE1B28426A1E0048FA09 /* 1024Logo copy.png */; };
+		27F9CE1E28426B560048FA09 /* 167Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CE1D28426B560048FA09 /* 167Logo.png */; };
+		27F9CE2028426DA90048FA09 /* 152Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CE1F28426DA80048FA09 /* 152Logo.png */; };
+		27F9CE2228426F200048FA09 /* 80Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CE2128426F200048FA09 /* 80Logo.png */; };
+		27F9CE262842720F0048FA09 /* 180Logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CE252842720F0048FA09 /* 180Logo copy.png */; };
+		27F9CE28284273210048FA09 /* 120Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9CE27284273210048FA09 /* 120Logo.png */; };
+		27FFA89227DA12AD0003FA51 /* test_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FFA89127DA12AD0003FA51 /* test_gameApp.swift */; };
+		27FFA89427DA12AD0003FA51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FFA89327DA12AD0003FA51 /* ContentView.swift */; };
+		27FFA89627DA12B10003FA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FFA89527DA12B10003FA51 /* Assets.xcassets */; };
+		27FFA89927DA12B10003FA51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FFA89827DA12B10003FA51 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270118C72853230E002F9264 /* Sudoku_buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku_buffer.swift; sourceTree = "<group>"; };
+		270118C9285329A1002F9264 /* Sudoku_board_storage.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Sudoku_board_storage.txt; path = ../../../Sudoku_board_storage.txt; sourceTree = "<group>"; };
+		270118CD285392C6002F9264 /* Boardss.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Boardss.txt; path = ../../../Boardss.txt; sourceTree = "<group>"; };
+		27191472283943D7004F3B1C /* Word_Length_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_Length_3.swift; sourceTree = "<group>"; };
+		27191474283A6758004F3B1C /* Alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabet.swift; sourceTree = "<group>"; };
+		272EA6A428055C980038B394 /* Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku.swift; sourceTree = "<group>"; };
+		2731D38428223C9D002986C1 /* tic_tac_toe_player_choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_player_choice.swift; sourceTree = "<group>"; };
+		2737FD932860129B00BF7EC3 /* Serpents_stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serpents_stairs.swift; sourceTree = "<group>"; };
+		2742E4CA28747841002DE87F /* third_ladder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third_ladder.png; path = ../../../../Downloads/third_ladder.png; sourceTree = "<group>"; };
+		2742E4CC28747A4D002DE87F /* forth_ladder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forth_ladder.png; path = ../../../../Downloads/forth_ladder.png; sourceTree = "<group>"; };
+		2746BA642835EE88002927BD /* Word_guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_guess.swift; sourceTree = "<group>"; };
+		274DDB51285717E900F847DE /* bigbrain_choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigbrain_choice.swift; sourceTree = "<group>"; };
+		274DDB55285777C700F847DE /* BigBrain_code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBrain_code.swift; sourceTree = "<group>"; };
+		274DDB57285A0D4F00F847DE /* 5_letter_words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_letter_words.swift; sourceTree = "<group>"; };
+		274DDB59285A0F1600F847DE /* WordGuess_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuess_5.swift; sourceTree = "<group>"; };
+		276144BD2869B11700012283 /* WordGuess_choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuess_choice.swift; sourceTree = "<group>"; };
+		276144C1286AE9FE00012283 /* snake 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snake 2.png"; path = "../../../../Downloads/snake 2.png"; sourceTree = "<group>"; };
+		276144C3286AEA8C00012283 /* First_Snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = First_Snake.png; path = ../../../../Downloads/First_Snake.png; sourceTree = "<group>"; };
+		276144C9286AF0BA00012283 /* First_Ladder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = First_Ladder.png; path = ../../../../Downloads/First_Ladder.png; sourceTree = "<group>"; };
+		276144CB286B261F00012283 /* Second_Snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Second_Snake.png; path = ../../../../Downloads/Second_Snake.png; sourceTree = "<group>"; };
+		276144CD286B2E6F00012283 /* Third_snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Third_snake.png; path = ../../../../Downloads/Third_snake.png; sourceTree = "<group>"; };
+		276144CF286C7E1800012283 /* forth_snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forth_snake.png; path = ../../../../Downloads/forth_snake.png; sourceTree = "<group>"; };
+		276144D1286C812700012283 /* fifth_snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fifth_snake.png; path = ../../../../Downloads/fifth_snake.png; sourceTree = "<group>"; };
+		276144D3286DE06700012283 /* First_Stairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = First_Stairs.png; path = ../../../../Downloads/First_Stairs.png; sourceTree = "<group>"; };
+		276144D5286DE15B00012283 /* First_ladder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = First_ladder.png; path = ../../../../Downloads/First_ladder.png; sourceTree = "<group>"; };
+		276144D7286DE52100012283 /* Second_ladder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Second_ladder.png; path = ../../../../Downloads/Second_ladder.png; sourceTree = "<group>"; };
+		27868F2327FDD873006DE092 /* tictactoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoe.swift; sourceTree = "<group>"; };
+		279318AB284D814F0072BCFD /* Sudoku_choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku_choice.swift; sourceTree = "<group>"; };
+		27A2AE29282C8A2700E8DFA3 /* big_brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = big_brain.swift; sourceTree = "<group>"; };
+		27A2E5A628A0098E00DC33CE /* sudoku_howtoplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sudoku_howtoplay.swift; sourceTree = "<group>"; };
+		27A2E5A828A2B1F300DC33CE /* sudoku_example1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sudoku_example1.png; path = ../../../sudoku_example1.png; sourceTree = "<group>"; };
+		27C3B40D27E737950008EBB1 /* KGHAPPYShadows.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = KGHAPPYShadows.ttf; path = ../../../../Downloads/kg_happy/KGHAPPYShadows.ttf; sourceTree = "<group>"; };
+		27C3B40E27E737950008EBB1 /* KGFonts-TOU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "KGFonts-TOU.txt"; path = "../../../../Downloads/kg_happy/KGFonts-TOU.txt"; sourceTree = "<group>"; };
+		27C3B40F27E737950008EBB1 /* KGHAPPYSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = KGHAPPYSolid.ttf; path = ../../../../Downloads/kg_happy/KGHAPPYSolid.ttf; sourceTree = "<group>"; };
+		27C3B41027E737950008EBB1 /* KGHAPPY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = KGHAPPY.ttf; path = ../../../../Downloads/kg_happy/KGHAPPY.ttf; sourceTree = "<group>"; };
+		27D1146E28255A2400195ED1 /* tictactoe_bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoe_bot.swift; sourceTree = "<group>"; };
+		27F01A6C27F2986A000FF9FA /* game_choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game_choice.swift; sourceTree = "<group>"; };
+		27F7DB002845023400485AB3 /* game_choice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game_choice2.swift; sourceTree = "<group>"; };
+		27F9CE1B28426A1E0048FA09 /* 1024Logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1024Logo copy.png"; path = "../../../1024Logo copy.png"; sourceTree = "<group>"; };
+		27F9CE1D28426B560048FA09 /* 167Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 167Logo.png; path = ../../../167Logo.png; sourceTree = "<group>"; };
+		27F9CE1F28426DA80048FA09 /* 152Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 152Logo.png; path = ../../../152Logo.png; sourceTree = "<group>"; };
+		27F9CE2128426F200048FA09 /* 80Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80Logo.png; path = ../../../80Logo.png; sourceTree = "<group>"; };
+		27F9CE252842720F0048FA09 /* 180Logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "180Logo copy.png"; path = "../../../180Logo copy.png"; sourceTree = "<group>"; };
+		27F9CE27284273210048FA09 /* 120Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120Logo.png; path = ../../../120Logo.png; sourceTree = "<group>"; };
+		27FFA88E27DA12AD0003FA51 /* test game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FFA89127DA12AD0003FA51 /* test_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_gameApp.swift; sourceTree = "<group>"; };
+		27FFA89327DA12AD0003FA51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27FFA89527DA12B10003FA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27FFA89827DA12B10003FA51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FFA88B27DA12AD0003FA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271D1FF827F681740072129C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2742E4CA28747841002DE87F /* third_ladder.png */,
+				276144C1286AE9FE00012283 /* snake 2.png */,
+				276144D5286DE15B00012283 /* First_ladder.png */,
+				276144D3286DE06700012283 /* First_Stairs.png */,
+				27A2E5A828A2B1F300DC33CE /* sudoku_example1.png */,
+				276144D7286DE52100012283 /* Second_ladder.png */,
+				276144CD286B2E6F00012283 /* Third_snake.png */,
+				276144C3286AEA8C00012283 /* First_Snake.png */,
+				276144CB286B261F00012283 /* Second_Snake.png */,
+				276144CF286C7E1800012283 /* forth_snake.png */,
+				276144C9286AF0BA00012283 /* First_Ladder.png */,
+				276144D1286C812700012283 /* fifth_snake.png */,
+				27F9CE2128426F200048FA09 /* 80Logo.png */,
+				2742E4CC28747A4D002DE87F /* forth_ladder.png */,
+				27F9CE27284273210048FA09 /* 120Logo.png */,
+				27F9CE1D28426B560048FA09 /* 167Logo.png */,
+				27F9CE1F28426DA80048FA09 /* 152Logo.png */,
+				27F9CE252842720F0048FA09 /* 180Logo copy.png */,
+				27F9CE1B28426A1E0048FA09 /* 1024Logo copy.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		271D1FF927F681840072129C /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				279318AB284D814F0072BCFD /* Sudoku_choice.swift */,
+				274DDB51285717E900F847DE /* bigbrain_choice.swift */,
+				274DDB55285777C700F847DE /* BigBrain_code.swift */,
+				2746BA642835EE88002927BD /* Word_guess.swift */,
+				27191474283A6758004F3B1C /* Alphabet.swift */,
+				27D1146E28255A2400195ED1 /* tictactoe_bot.swift */,
+				2731D38428223C9D002986C1 /* tic_tac_toe_player_choice.swift */,
+				27868F2327FDD873006DE092 /* tictactoe.swift */,
+				274DDB59285A0F1600F847DE /* WordGuess_5.swift */,
+				27F01A6C27F2986A000FF9FA /* game_choice.swift */,
+				276144BD2869B11700012283 /* WordGuess_choice.swift */,
+				27F7DB002845023400485AB3 /* game_choice2.swift */,
+				272EA6A428055C980038B394 /* Sudoku.swift */,
+				270118C72853230E002F9264 /* Sudoku_buffer.swift */,
+				27A2AE29282C8A2700E8DFA3 /* big_brain.swift */,
+				274DDB57285A0D4F00F847DE /* 5_letter_words.swift */,
+				2737FD932860129B00BF7EC3 /* Serpents_stairs.swift */,
+				270118C9285329A1002F9264 /* Sudoku_board_storage.txt */,
+				270118CD285392C6002F9264 /* Boardss.txt */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		27C3B40C27E7377E0008EBB1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27C3B40E27E737950008EBB1 /* KGFonts-TOU.txt */,
+				27C3B41027E737950008EBB1 /* KGHAPPY.ttf */,
+				27C3B40D27E737950008EBB1 /* KGHAPPYShadows.ttf */,
+				27C3B40F27E737950008EBB1 /* KGHAPPYSolid.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		27FFA88527DA12AD0003FA51 = {
+			isa = PBXGroup;
+			children = (
+				27A2E5A628A0098E00DC33CE /* sudoku_howtoplay.swift */,
+				27191472283943D7004F3B1C /* Word_Length_3.swift */,
+				27FFA89027DA12AD0003FA51 /* test game */,
+				27FFA88F27DA12AD0003FA51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27FFA88F27DA12AD0003FA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FFA88E27DA12AD0003FA51 /* test game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FFA89027DA12AD0003FA51 /* test game */ = {
+			isa = PBXGroup;
+			children = (
+				27FFA89127DA12AD0003FA51 /* test_gameApp.swift */,
+				27FFA89327DA12AD0003FA51 /* ContentView.swift */,
+				271D1FF927F681840072129C /* Preview */,
+				271D1FF827F681740072129C /* images */,
+				27C3B40C27E7377E0008EBB1 /* Fonts */,
+				27FFA89527DA12B10003FA51 /* Assets.xcassets */,
+				27FFA89727DA12B10003FA51 /* Preview Content */,
+			);
+			path = "test game";
+			sourceTree = "<group>";
+		};
+		27FFA89727DA12B10003FA51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27FFA89827DA12B10003FA51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FFA88D27DA12AD0003FA51 /* test game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FFA89C27DA12B10003FA51 /* Build configuration list for PBXNativeTarget "test game" */;
+			buildPhases = (
+				27FFA88A27DA12AD0003FA51 /* Sources */,
+				27FFA88B27DA12AD0003FA51 /* Frameworks */,
+				27FFA88C27DA12AD0003FA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test game";
+			productName = "test game";
+			productReference = 27FFA88E27DA12AD0003FA51 /* test game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FFA88627DA12AD0003FA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					27FFA88D27DA12AD0003FA51 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 27FFA88927DA12AD0003FA51 /* Build configuration list for PBXProject "test game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27FFA88527DA12AD0003FA51;
+			productRefGroup = 27FFA88F27DA12AD0003FA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FFA88D27DA12AD0003FA51 /* test game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FFA88C27DA12AD0003FA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3B41127E737950008EBB1 /* KGHAPPYShadows.ttf in Resources */,
+				2742E4CB28747841002DE87F /* third_ladder.png in Resources */,
+				27FFA89927DA12B10003FA51 /* Preview Assets.xcassets in Resources */,
+				2742E4CD28747A4E002DE87F /* forth_ladder.png in Resources */,
+				276144C2286AE9FF00012283 /* snake 2.png in Resources */,
+				276144CA286AF0BA00012283 /* First_Ladder.png in Resources */,
+				276144D2286C812700012283 /* fifth_snake.png in Resources */,
+				27C3B41227E737950008EBB1 /* KGFonts-TOU.txt in Resources */,
+				27F9CE2028426DA90048FA09 /* 152Logo.png in Resources */,
+				27F9CE2228426F200048FA09 /* 80Logo.png in Resources */,
+				270118CA285329A1002F9264 /* Sudoku_board_storage.txt in Resources */,
+				27FFA89627DA12B10003FA51 /* Assets.xcassets in Resources */,
+				27F9CE262842720F0048FA09 /* 180Logo copy.png in Resources */,
+				27A2E5A928A2B1F300DC33CE /* sudoku_example1.png in Resources */,
+				276144D0286C7E1800012283 /* forth_snake.png in Resources */,
+				27F9CE1C28426A1E0048FA09 /* 1024Logo copy.png in Resources */,
+				270118CE285392C6002F9264 /* Boardss.txt in Resources */,
+				276144C4286AEA8C00012283 /* First_Snake.png in Resources */,
+				27F9CE1E28426B560048FA09 /* 167Logo.png in Resources */,
+				276144CE286B2E6F00012283 /* Third_snake.png in Resources */,
+				276144D6286DE15B00012283 /* First_ladder.png in Resources */,
+				27C3B41327E737950008EBB1 /* KGHAPPYSolid.ttf in Resources */,
+				276144D8286DE52100012283 /* Second_ladder.png in Resources */,
+				276144D4286DE06800012283 /* First_Stairs.png in Resources */,
+				27F9CE28284273210048FA09 /* 120Logo.png in Resources */,
+				276144CC286B261F00012283 /* Second_Snake.png in Resources */,
+				27C3B41427E737950008EBB1 /* KGHAPPY.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FFA88A27DA12AD0003FA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274DDB52285717E900F847DE /* bigbrain_choice.swift in Sources */,
+				270118C82853230E002F9264 /* Sudoku_buffer.swift in Sources */,
+				27A2AE2A282C8A2700E8DFA3 /* big_brain.swift in Sources */,
+				27FFA89427DA12AD0003FA51 /* ContentView.swift in Sources */,
+				274DDB58285A0D4F00F847DE /* 5_letter_words.swift in Sources */,
+				2746BA652835EE88002927BD /* Word_guess.swift in Sources */,
+				2737FD942860129B00BF7EC3 /* Serpents_stairs.swift in Sources */,
+				279318AC284D814F0072BCFD /* Sudoku_choice.swift in Sources */,
+				274DDB56285777C700F847DE /* BigBrain_code.swift in Sources */,
+				27D1146F28255A2400195ED1 /* tictactoe_bot.swift in Sources */,
+				276144BE2869B11700012283 /* WordGuess_choice.swift in Sources */,
+				27868F2427FDD873006DE092 /* tictactoe.swift in Sources */,
+				2731D38528223C9D002986C1 /* tic_tac_toe_player_choice.swift in Sources */,
+				274DDB5A285A0F1600F847DE /* WordGuess_5.swift in Sources */,
+				27191475283A6759004F3B1C /* Alphabet.swift in Sources */,
+				27F7DB012845023400485AB3 /* game_choice2.swift in Sources */,
+				27A2E5A728A0098E00DC33CE /* sudoku_howtoplay.swift in Sources */,
+				272EA6A528055C980038B394 /* Sudoku.swift in Sources */,
+				27F01A6D27F2986A000FF9FA /* game_choice.swift in Sources */,
+				27FFA89227DA12AD0003FA51 /* test_gameApp.swift in Sources */,
+				27191473283943D7004F3B1C /* Word_Length_3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27FFA89A27DA12B10003FA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27FFA89B27DA12B10003FA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27FFA89D27DA12B10003FA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test game/Preview Content\"";
+				DEVELOPMENT_TEAM = F47L54Q57B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/reddykitaan/Desktop/test game/test game/info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Arcade;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kitaanreddy-gmail.com.test-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27FFA89E27DA12B10003FA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test game/Preview Content\"";
+				DEVELOPMENT_TEAM = F47L54Q57B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/reddykitaan/Desktop/test game/test game/info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Arcade;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kitaanreddy-gmail.com.test-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FFA88927DA12AD0003FA51 /* Build configuration list for PBXProject "test game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FFA89A27DA12B10003FA51 /* Debug */,
+				27FFA89B27DA12B10003FA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FFA89C27DA12B10003FA51 /* Build configuration list for PBXNativeTarget "test game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FFA89D27DA12B10003FA51 /* Debug */,
+				27FFA89E27DA12B10003FA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FFA88627DA12AD0003FA51 /* Project object */;
+}
